@@ -1,0 +1,60 @@
+/* STICKY-SOCIAL-ICON  */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    transition: all 0.3s ease;
+    color: #fff;
+    font-size: 20px;
+}
+
+.icon-bar .whatsapp {
+    border-radius: 0px 7px 0px 0px;
+}
+
+.icon-bar .envelope {
+    border-radius: 0px 0px 7px 0px;
+}
+
+.icon-bar a:hover {
+    background: #222;
+}
+
+.icon-bar .whatsapp {
+    background: #26D367;
+}
+
+.icon-bar .envelope {
+    background: #DC483C;
+}
+
+
+/* STICKY-CHATS */
+.chats {
+    bottom: 0;
+    right: 0%;
+    transform: translateY(-50%);
+    position: fixed;
+    z-index: 100;
+}
+
+.chats ul {
+    background: #26D367;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.chats ul li {
+    list-style-type: none;
+    padding: 8px 3px;
+    margin-right: 25px;
+}
+
+.chats ul li a {
+    text-decoration: none;
+}

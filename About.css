@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HOME-BANNER */
+.about-banner {
+    background-image: url(./images/About-US.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 71vh;
+}
+
+
+/* know-us-section */
+.know-us-section {
+    background-color: #100F0F;
+    color: aliceblue;
+}
+
+.know-us-text {
+    text-align: justify;
+    padding: 0 70px;
+}
+
+/* OUR VISION */
+.our-vision {
+    background-color: #100F0F;
+    height: 450px;
+}
+
+.our-vision-image img {
+    height: 450px;
+}
+
+.out-vision-text p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+/* FOOTER */
+.footer-social-icon {
+    background-color: #100F0F;
+    color: #FFFFFF;
+    padding: 80px 0;
+}
+
+.footer-contact {
+    background-color: #313337;
+}
+
+
+
+
+
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 480px) {
+
+    /* ABOUT-BANNER */
+    .about-banner {
+        background-image: url(./images/About-Mobile.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    /* know-us-section */
+    .know-us-text {
+        text-align: justify;
+        padding: 0 15px;
+    }
+
+    /* OUR VISION */
+    .our-vision {
+        background-color: #100F0F;
+        height: auto;
+    }
+
+}
+
+
+/* TAP RESPONSIVE */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* ABOUT-BANNER */
+    .about-banner {
+        /* background-image: url(./images/768x560-tab.jpg); */
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 26vh;
+    }
+
+}
