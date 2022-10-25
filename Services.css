@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SERVICES-BANNER */
+.services-banner {
+    background-image: url(./images/Service.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 71vh;
+}
+
+/* OUR-SERVICES-CARD */
+.our-services {
+    background-color: #100F0F;
+}
+
+.services-card {
+    width: 300px;
+    margin: auto;
+
+}
+
+.services-card img {
+    transition: 0.3s all ease-in-out;
+}
+
+.services-card img:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+/* WHY-CHOOSE-US */
+.time-icon {
+    border: 2.5px solid #CBA13C;
+    padding: 15px;
+    border-radius: 10px;
+    color: #CBA13C;
+    transition: all 0.3s;
+}
+
+.time-icon:hover {
+    -ms-transform: scale(0.9);
+    /* IE 9 */
+    -webkit-transform: scale(0.9);
+    /* Safari 3-8 */
+    transform: scale(0.9);
+}
+
+.gear-icon {
+    border: 2.5px solid #EFF0F7;
+    padding: 15px;
+    border-radius: 10px;
+    color: #EFF0F7;
+    transition: all 0.3s;
+}
+
+.gear-icon:hover {
+    -ms-transform: scale(0.9);
+    /* IE 9 */
+    -webkit-transform: scale(0.9);
+    /* Safari 3-8 */
+    transform: scale(0.9);
+}
+
+/* FOOTER */
+.footer-social-icon {
+    background-color: #100F0F;
+    color: #FFFFFF;
+    padding: 80px 0;
+}
+
+.footer-contact {
+    background-color: #313337;
+}
+
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 480px) {
+
+    /* SERVICES-BANNER */
+    .services-banner {
+        background-image: url(./images/Service-Mobile-1.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 71vh;
+    }
+}
+
+
+
+/* TAP RESPONSIVE */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* SERVICES-BANNER */
+    .services-banner {
+        background-image: url(./images/TAB-SER.jpg);
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 62vh;
+    }
+}

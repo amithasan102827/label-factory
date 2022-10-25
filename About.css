@@ -24,12 +24,57 @@
 .know-us-text {
     text-align: justify;
     padding: 0 70px;
+    font-size: 17px;
 }
+
+/* ABOUT-FEATURES-CARD */
+.about-card {
+    height: 26rem;
+    width: 26rem;
+    background-color: #100F0F;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.speed-icon {
+    border: 3px solid #F9F18A;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.speed-icon i {
+    padding: 20px 15px;
+    color: #F9F18A;
+}
+
+.cost-icon {
+    border: 3px solid #1FBCE9;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.cost-icon i {
+    padding: 20px 15px;
+    color: #1FBCE9;
+}
+
+.customer-icon {
+    border: 3px solid #2FBC3D;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.customer-icon i {
+    padding: 20px 19px;
+    color: #2FBC3D;
+}
+
 
 /* OUR VISION */
 .our-vision {
     background-color: #100F0F;
     height: 450px;
+    margin: 120px 0;
 }
 
 .our-vision-image img {
@@ -39,6 +84,16 @@
 .out-vision-text p {
     text-align: justify;
     font-size: 18px;
+}
+
+/* OUR-FACTORY */
+.factory-section {
+    background-color: #100F0F;
+}
+
+.factory-text p {
+    font-size: 17px;
+    text-align: justify;
 }
 
 /* FOOTER */
@@ -80,7 +135,16 @@
         height: auto;
     }
 
+    /* ABOUT-FEATURES-CARD */
+    .about-card {
+        height: auto;
+        width: 21rem;
+        background-color: #100F0F;
+        color: #FFFFFF;
+        margin: auto;
+    }
 }
+
 
 
 /* TAP RESPONSIVE */
@@ -96,4 +160,22 @@
         height: 26vh;
     }
 
+    /* OUR VISION */
+    .our-vision {
+        background-color: #100F0F;
+        height: auto;
+    }
+
+    .our-vision-image img {
+        height: 450px;
+    }
+
+    /* ABOUT-FEATURES-CARD */
+    .about-card {
+        height: auto;
+        width: 21rem;
+        background-color: #100F0F;
+        color: #FFFFFF;
+        margin: auto;
+    }
 }
