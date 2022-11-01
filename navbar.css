@@ -47,7 +47,7 @@
 .menu-nav .nav-item::after {
     content: "";
     position: absolute;
-    background-color: #ff3c78;
+    background-color: black;
     height: 2px;
     width: 0;
     margin: auto !important;
